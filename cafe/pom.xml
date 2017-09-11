@@ -6,6 +6,12 @@
   <artifactId>cafe</artifactId>
   <version>5.0.0.BUILD-SNAPSHOT</version>
   <url>http://projects.spring.io/spring-integration</url>
+  <packaging>pom</packaging>
+  <modules>
+    <module>cafe-si</module>
+    <module>cafe-jms</module>
+    <module>cafe-amqp</module>
+  </modules>
   <organization>
     <name>SpringIO</name>
     <url>https://spring.io</url>
